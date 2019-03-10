@@ -1,0 +1,14 @@
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\obj\Debug\Zielinski.Librarymanager.DAO.csproj.CoreCompileInputs.cache
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.DAO.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.DAO.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.DAO.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.Core.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.Interfaces.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.Core.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.Core.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.Interfaces.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\bin\Debug\Zielinski.Librarymanager.Interfaces.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\obj\Debug\Zielinski.Librarymanager.DAO.csprojResolveAssemblyReference.cache
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\obj\Debug\Zielinski.Librarymanager.DAO.csproj.CopyComplete
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\obj\Debug\Zielinski.Librarymanager.DAO.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.DAO\obj\Debug\Zielinski.Librarymanager.DAO.pdb

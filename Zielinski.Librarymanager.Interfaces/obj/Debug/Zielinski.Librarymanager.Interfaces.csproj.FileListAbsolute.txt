@@ -1,0 +1,11 @@
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\obj\Debug\Zielinski.Librarymanager.Interfaces.csproj.CoreCompileInputs.cache
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\bin\Debug\Zielinski.Librarymanager.Interfaces.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\bin\Debug\Zielinski.Librarymanager.Interfaces.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\bin\Debug\Zielinski.Librarymanager.Interfaces.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\bin\Debug\Zielinski.Librarymanager.Core.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\bin\Debug\Zielinski.Librarymanager.Core.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\bin\Debug\Zielinski.Librarymanager.Core.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\obj\Debug\Zielinski.Librarymanager.Interfaces.csprojResolveAssemblyReference.cache
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\obj\Debug\Zielinski.Librarymanager.Interfaces.csproj.CopyComplete
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\obj\Debug\Zielinski.Librarymanager.Interfaces.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Interfaces\obj\Debug\Zielinski.Librarymanager.Interfaces.pdb

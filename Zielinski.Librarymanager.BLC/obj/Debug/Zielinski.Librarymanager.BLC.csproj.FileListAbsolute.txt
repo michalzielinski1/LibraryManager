@@ -1,0 +1,17 @@
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\obj\Debug\Zielinski.Librarymanager.BLC.csprojResolveAssemblyReference.cache
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\obj\Debug\Zielinski.Librarymanager.BLC.csproj.CoreCompileInputs.cache
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.BLC.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.BLC.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.BLC.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.Core.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.DAO.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.Interfaces.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.Core.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.Core.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.DAO.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.DAO.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.Interfaces.pdb
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\bin\Debug\Zielinski.Librarymanager.Interfaces.dll.config
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\obj\Debug\Zielinski.Librarymanager.BLC.csproj.CopyComplete
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\obj\Debug\Zielinski.Librarymanager.BLC.dll
+D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.BLC\obj\Debug\Zielinski.Librarymanager.BLC.pdb
