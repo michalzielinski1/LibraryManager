@@ -79,7 +79,8 @@ namespace Zielinski.Librarymanager.UI.ViewModels
         {
             EditedBook = new BookViewModel(new Book(), blc.GetShelves());
             EditedBook.ID = blc.GetNextBookID();
-            EditedBook.Title = "NewBook";
+            EditedBook.Title = "";
+            EditedBook.Validate();
             Books.Add(EditedBook);
             SelectedBook = EditedBook;
         }
