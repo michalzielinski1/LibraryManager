@@ -46,11 +46,11 @@
                 <TextBox Style="{StaticResource StyleTextBox}" Text="{Binding FilterValue}" />
                 
             </DockPanel>
-            <ListBox Name="BooksListBox" Height="200"
+            <ListBox Name="BooksListBox"
                      ItemsSource="{Binding Books}"
                      SelectedItem="{Binding SelectedBook,Mode=TwoWay}"
-                     Margin="20"
-                     MaxHeight="150">
+                     MaxHeight="200"
+                     Margin="20">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -65,6 +65,7 @@
             </ListBox>
             <Grid DataContext="{Binding ElementName=BooksListBox,Path=SelectedItem}">
                 <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
@@ -85,6 +86,11 @@
                 <TextBox Style="{StaticResource StyleTextBox}" Grid.Row="3" Grid.Column="1"  Text="{Binding ISBN}"/>
                 <Label Style="{StaticResource StyleLabel}" Grid.Row="4">Shelf</Label>
                 <ComboBox Grid.Row="5" Height="20" Margin="10" FontSize="11"  Grid.Column="1" ItemsSource="{Binding Shelves}" SelectedItem="{Binding Shelf}"/>
+                <DockPanel LastChildFill="True" Grid.Row="5">
+                    <Button Style="{StaticResource StyleButton}" Command="{Binding FilterDataCommand}">Add new shelf</Button>
+                    <Label Style="{StaticResource StyleLabel}" Grid.Row="4">Shelf</Label>
+                    <TextBox Style="{StaticResource StyleTextBox}" Text="{Binding FilterValue}" />
+                </DockPanel>
             </Grid>
         </StackPanel>
         <StackPanel Orientation="Horizontal">

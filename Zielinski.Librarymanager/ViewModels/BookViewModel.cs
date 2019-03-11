@@ -6,7 +6,6 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Zielinski.Librarymanager.DAO;
 using Zielinski.Librarymanager.Interfaces;
 
 namespace Zielinski.Librarymanager.UI.ViewModels
