@@ -1,7 +1,0 @@
-D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Core\obj\Debug\Zielinski.Librarymanager.Core.csprojResolveAssemblyReference.cache
-D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Core\obj\Debug\Zielinski.Librarymanager.Core.csproj.CoreCompileInputs.cache
-D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Core\bin\Debug\Zielinski.Librarymanager.Core.dll.config
-D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Core\bin\Debug\Zielinski.Librarymanager.Core.dll
-D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Core\bin\Debug\Zielinski.Librarymanager.Core.pdb
-D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Core\obj\Debug\Zielinski.Librarymanager.Core.dll
-D:\Studia\sem7\PW\lab\projekt\Zielinski.Librarymanager\Zielinski.Librarymanager.Core\obj\Debug\Zielinski.Librarymanager.Core.pdb
