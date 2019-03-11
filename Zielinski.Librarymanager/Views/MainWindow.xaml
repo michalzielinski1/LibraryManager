@@ -21,7 +21,7 @@
                         <DockPanel LastChildFill="True">
                             <ListBox DockPanel.Dock="Bottom" 
                                      ItemsSource="{Binding ElementName=ErrorComponent,Path=AdornedElement.(Validation.Errors)}" 
-                                     DisplayMemberPath="ErrorContent" Margin="0" />
+                                     DisplayMemberPath="ErrorContent" />
                             <Border BorderBrush="DarkRed" BorderThickness="2" >
                                 <AdornedElementPlaceholder Name="ErrorComponent" />
                             </Border>
