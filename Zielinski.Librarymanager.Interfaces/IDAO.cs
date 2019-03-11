@@ -11,6 +11,7 @@ namespace Zielinski.Librarymanager.Interfaces
         int GetNextBookID();
         void SaveBook(IBook book);
         void DeleteBook(int ID);
+        void SaveShelf(IShelf shelf);
         IEnumerable<IShelf> GetAllShelves();
         IEnumerable<IBook> GetAllBooks();
         IBook CreateEmptyBook();

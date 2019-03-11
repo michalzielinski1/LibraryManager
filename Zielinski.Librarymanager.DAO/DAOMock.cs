@@ -21,10 +21,10 @@ namespace Zielinski.Librarymanager.DAO
         {
             _shelves = new List<IShelf>()
             {
-                new Shelf{ ShelfLocation=ShelfLocation.Shelf_1},
-                new Shelf{ ShelfLocation=ShelfLocation.Shelf_2},
-                new Shelf{ ShelfLocation=ShelfLocation.Shelf_3},
-                new Shelf{ ShelfLocation=ShelfLocation.Shelf_4},
+                new Shelf{ ShelfLocation="Shelf_1"},
+                new Shelf{ ShelfLocation="Shelf_2"},
+                new Shelf{ ShelfLocation="Shelf_3"},
+                new Shelf{ ShelfLocation="Shelf_4"},
             };
 
             _books = new List<IBook>()
@@ -82,6 +82,11 @@ namespace Zielinski.Librarymanager.DAO
                 }
             }
             _books.Add(book);
+        }
+
+        public void SaveShelf(IShelf shelf)
+        {
+            _shelves.Add(shelf);
         }
 
         public void DeleteBook(int ID)

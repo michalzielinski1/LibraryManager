@@ -29,6 +29,11 @@ namespace Zielinski.Librarymanager.BLC
             dao.SaveBook(book);
         }
 
+        public void SaveShelf(Shelf shelf)
+        {
+            dao.SaveShelf(shelf);
+        }
+
         public void DeleteBook(int ID)
         {
             dao.DeleteBook(ID);

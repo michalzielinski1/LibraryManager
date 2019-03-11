@@ -10,7 +10,7 @@ namespace Zielinski.Librarymanager.DAO
 {
     public class Shelf : IShelf
     {
-        public ShelfLocation ShelfLocation { get; set; }
+        public string ShelfLocation { get; set; }
         public override string ToString()
         {
             return ShelfLocation.ToString();

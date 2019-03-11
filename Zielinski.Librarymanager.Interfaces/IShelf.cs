@@ -4,6 +4,6 @@ namespace Zielinski.Librarymanager.Interfaces
 {
     public interface IShelf
     {
-		 ShelfLocation ShelfLocation { get; set; }
+		 string ShelfLocation { get; set; }
     }
 }

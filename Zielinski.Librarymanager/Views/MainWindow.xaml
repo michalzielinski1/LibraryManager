@@ -44,7 +44,7 @@
             <DockPanel LastChildFill="True">
                 <Button Style="{StaticResource StyleButton}" Command="{Binding FilterDataCommand}">Filter</Button>
                 <TextBox Style="{StaticResource StyleTextBox}" Text="{Binding FilterValue}" />
-                
+
             </DockPanel>
             <ListBox Name="BooksListBox"
                      ItemsSource="{Binding Books}"
@@ -85,12 +85,18 @@
                 <Label Style="{StaticResource StyleLabel}" Grid.Row="3">ISBN</Label>
                 <TextBox Style="{StaticResource StyleTextBox}" Grid.Row="3" Grid.Column="1"  Text="{Binding ISBN}"/>
                 <Label Style="{StaticResource StyleLabel}" Grid.Row="4">Shelf</Label>
-                <ComboBox Grid.Row="5" Height="20" Margin="10" FontSize="11"  Grid.Column="1" ItemsSource="{Binding Shelves}" SelectedItem="{Binding Shelf}"/>
-                <DockPanel LastChildFill="True" Grid.Row="5">
-                    <Button Style="{StaticResource StyleButton}" Command="{Binding FilterDataCommand}">Add new shelf</Button>
-                    <Label Style="{StaticResource StyleLabel}" Grid.Row="4">Shelf</Label>
-                    <TextBox Style="{StaticResource StyleTextBox}" Text="{Binding FilterValue}" />
-                </DockPanel>
+                <ComboBox Grid.Row="4" Height="20" Margin="10" FontSize="11"  Grid.Column="1" ItemsSource="{Binding Shelves}" SelectedItem="{Binding Shelf}"/>
+            </Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Style="{StaticResource StyleButton}"   Grid.Row="5" Command="{Binding SaveShelfCommand}">Add new shelf</Button>
+                <TextBox Style="{StaticResource StyleTextBox}"  Grid.Row="5" Grid.Column="1" Text="{Binding EditedShelf.ShelfLocation}" />
             </Grid>
         </StackPanel>
         <StackPanel Orientation="Horizontal">

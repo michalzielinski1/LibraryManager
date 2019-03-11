@@ -35,12 +35,17 @@ namespace Zielinski.Librarymanager.UI.ViewModels
             _saveBookCommand = new RelayCommand(param => this.SaveBook(),
                                                 param => this.CanSaveBook());
 
+            _saveShelfCommand = new RelayCommand(param => this.SaveShelf(),
+                                                param => this.CanSaveShelf());
+
+
             _deleteBookCommand = new RelayCommand(param => this.DeleteBook(),
                                     param => this.CanDeleteBook());
         }
 
         private void GetAllBooks()
         {
+            Books.Clear();
             foreach (var book in blc.GetBooks())
             {
                 Books.Add(new BookViewModel(book, blc.GetShelves()));
@@ -110,6 +115,39 @@ namespace Zielinski.Librarymanager.UI.ViewModels
             EditedBook = null;
         }
 
+        private ShelfViewModel _editedShelf = new ShelfViewModel(new Shelf { ShelfLocation="New Shelf"});
+        public ShelfViewModel EditedShelf
+        {
+            get => _editedShelf;
+            set
+            {
+                _editedShelf = value;
+                OnPropertyChanged(nameof(EditedShelf));
+            }
+        }
+
+        private RelayCommand _saveShelfCommand;
+
+        public RelayCommand SaveShelfCommand
+        {
+            get => _saveShelfCommand;
+        }
+
+        private void SaveShelf()
+        {
+            blc.SaveShelf(new Shelf{ShelfLocation=EditedShelf.ShelfLocation});
+            EditedShelf = new ShelfViewModel(new Shelf { ShelfLocation = "New Shelf"});
+            GetAllBooks();
+        }
+
+        private bool CanSaveShelf()
+        {
+            if (EditedShelf != null)
+            {
+                return true;
+            }
+            return false;
+        }
         private BookViewModel selectedBook;
 
         public BookViewModel SelectedBook
