@@ -24,8 +24,9 @@ namespace Zielinski.Librarymanager.UI.ViewModels
         public string FilterValue { get; set; }
         public BookListViewModel()
         {
+            Properties.Settings sett = new Properties.Settings();
             OnPropertyChanged("Books");
-            blc = new BLC.BLC();
+            blc = new BLC.BLC(sett.dbName);
             GetAllBooks();
             _view = (ListCollectionView)CollectionViewSource.GetDefaultView(Books);
             _filterDataCommand = new RelayCommand(param => this.FilterData());

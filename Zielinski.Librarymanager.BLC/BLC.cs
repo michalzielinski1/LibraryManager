@@ -14,9 +14,24 @@ namespace Zielinski.Librarymanager.BLC
         private IDAO dao;
         public int nextID { get; }
 
-        public BLC()
+        public BLC(string dbName)
         {
-            dao = new DAOMock();
+            Assembly a = Assembly.UnsafeLoadFrom(dbName);
+
+            Type daoToCreate = null;
+            Type daoType = typeof(IDAO);
+
+            foreach (var t in a.GetTypes())
+            {
+                foreach (var i in t.GetInterfaces())
+                {
+                    if (i == daoType)
+                    {
+                        daoToCreate = t;
+                    }
+                }
+            }
+            dao = (IDAO)Activator.CreateInstance(daoToCreate, new object[] { });
         }
 
         public int GetNextBookID()

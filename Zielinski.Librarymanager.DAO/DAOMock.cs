@@ -29,7 +29,7 @@ namespace Zielinski.Librarymanager.DAO
 
             _books = new List<IBook>()
             {
-                new Book{ ID=1, Title="In Search of Lost Time", Author="Marcel Proust", ISBN="5491189464223", Shelf=_shelves[0]},
+                new Book{ ID=1, Title="Inxxxxx Search of Lost Time", Author="Marcel Proust", ISBN="5491189464223", Shelf=_shelves[0]},
                 new Book{ ID=2, Title="Don Quixote", Author="Miguel de Cervantes", ISBN="9404119132528", Shelf=_shelves[0]},
                 new Book{ ID=3, Title="Ulysses", Author="James Joyce", ISBN="8721933243321", Shelf=_shelves[0]},
                 new Book{ ID=4, Title="The Great Gatsby", Author="F. Scott Fitzgerald", ISBN="2442153434905", Shelf=_shelves[0]},
